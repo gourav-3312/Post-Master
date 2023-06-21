@@ -69,7 +69,8 @@ addParam.addEventListener("click", () => {
 let submit = document.getElementById("submit");
 submit.addEventListener("click", () => {
   // document.getElementById('responseJsonText').value = "PLEASE WAIT...FETCHING RESPONSE...";
-  document.getElementById('responsePrism').innerHTML = "PLEASE WAIT...FETCHING RESPONSE...";
+  document.getElementById("responsePrism").innerHTML =
+    "PLEASE WAIT...FETCHING RESPONSE...";
 
   let url = document.getElementById("url").value;
   let requestType = document.querySelector(
